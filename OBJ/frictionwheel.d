@@ -35,11 +35,9 @@
 ..\obj\frictionwheel.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\frictionwheel.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\frictionwheel.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\frictionwheel.o: ..\HARDWARE\led.h
 ..\obj\frictionwheel.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\frictionwheel.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\frictionwheel.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\frictionwheel.o: ..\HARDWARE\key.h
 ..\obj\frictionwheel.o: ..\HARDWARE\putt.h
 ..\obj\frictionwheel.o: ..\HARDWARE\can.h
 ..\obj\frictionwheel.o: ..\HARDWARE\pid.h

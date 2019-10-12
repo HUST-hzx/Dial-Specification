@@ -35,4 +35,3 @@
 ..\obj\stm32f4xx_hash_sha1.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\stm32f4xx_hash_sha1.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\stm32f4xx_hash_sha1.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\stm32f4xx_hash_sha1.o: ..\HARDWARE\led.h

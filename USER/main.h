@@ -13,8 +13,6 @@
 #include "string.h"
 
 //MyLib
-#include "led.h"
-#include "key.h"
 #include "putt.h"
 #include "can.h"
 #include "usart.h"

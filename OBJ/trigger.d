@@ -35,11 +35,9 @@
 ..\obj\trigger.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\trigger.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\trigger.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\trigger.o: ..\HARDWARE\led.h
 ..\obj\trigger.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\trigger.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\trigger.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\trigger.o: ..\HARDWARE\key.h
 ..\obj\trigger.o: ..\HARDWARE\putt.h
 ..\obj\trigger.o: ..\HARDWARE\can.h
 ..\obj\trigger.o: ..\HARDWARE\pid.h

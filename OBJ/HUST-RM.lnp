@@ -41,8 +41,6 @@
 "..\obj\can.o"
 "..\obj\crc_algorithm.o"
 "..\obj\frictionwheel.o"
-"..\obj\key.o"
-"..\obj\led.o"
 "..\obj\pid.o"
 "..\obj\tim4.o"
 "..\obj\usart.o"

@@ -35,11 +35,9 @@
 ..\obj\zerocheck.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\zerocheck.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\zerocheck.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\zerocheck.o: ..\HARDWARE\led.h
 ..\obj\zerocheck.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\zerocheck.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\zerocheck.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\zerocheck.o: ..\HARDWARE\key.h
 ..\obj\zerocheck.o: ..\HARDWARE\putt.h
 ..\obj\zerocheck.o: ..\HARDWARE\can.h
 ..\obj\zerocheck.o: ..\HARDWARE\pid.h

@@ -36,11 +36,9 @@
 ..\obj\tim4.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\tim4.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\tim4.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\tim4.o: ..\HARDWARE\led.h
 ..\obj\tim4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\tim4.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\tim4.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\tim4.o: ..\HARDWARE\key.h
 ..\obj\tim4.o: ..\HARDWARE\putt.h
 ..\obj\tim4.o: ..\HARDWARE\can.h
 ..\obj\tim4.o: ..\HARDWARE\pid.h

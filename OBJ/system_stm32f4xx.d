@@ -34,4 +34,3 @@
 ..\obj\system_stm32f4xx.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\system_stm32f4xx.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\system_stm32f4xx.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\system_stm32f4xx.o: ..\HARDWARE\led.h

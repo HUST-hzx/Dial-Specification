@@ -35,11 +35,9 @@
 ..\obj\putt.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\putt.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\putt.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\putt.o: ..\HARDWARE\led.h
 ..\obj\putt.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\putt.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\putt.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\putt.o: ..\HARDWARE\key.h
 ..\obj\putt.o: ..\HARDWARE\putt.h
 ..\obj\putt.o: ..\HARDWARE\can.h
 ..\obj\putt.o: ..\HARDWARE\pid.h

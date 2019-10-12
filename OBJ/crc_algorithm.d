@@ -35,11 +35,9 @@
 ..\obj\crc_algorithm.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\crc_algorithm.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\crc_algorithm.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\crc_algorithm.o: ..\HARDWARE\led.h
 ..\obj\crc_algorithm.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\crc_algorithm.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\crc_algorithm.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\crc_algorithm.o: ..\HARDWARE\key.h
 ..\obj\crc_algorithm.o: ..\HARDWARE\putt.h
 ..\obj\crc_algorithm.o: ..\HARDWARE\can.h
 ..\obj\crc_algorithm.o: ..\HARDWARE\pid.h
