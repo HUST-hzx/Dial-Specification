@@ -105,8 +105,10 @@ void DMA2_Stream1_IRQHandler(void)
 
 
 extern RC_Ctl_t RC_Ctl; 
-int SF_current=0, time1;
-int BF_current=2000, time3;
+short SF_current=0;//小摩擦轮电流值
+short time1;
+short BF_current=2000;//大摩擦轮电流值
+short	time3;
 
 /**********************************************************************************************************
 *函 数 名: Friction_Cal

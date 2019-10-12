@@ -7,9 +7,9 @@
 **********************************************************************************************************/
 #include "main.h"
 /*----------------------------------内部变量---------------------------*/
-short MicroPosition;
+
 /*----------------------------------结构体-----------------------------*/
-Motor_Typedef Trigger;
+Motor_Typedef Trigger;//拨弹电机结构体
 F105_Typedef idata;
 /*----------------------------------外部变量---------------------------*/
 
@@ -54,8 +54,9 @@ float Trigger_PID(short circle, short speed)
 **********************************************************************************************************/
 void Blocking_Detect(float BodanMotorCurrent)
 {
-	static short blocking_prevent_flag;
-	static short reverse_flag;
+	static short blocking_prevent_flag;//堵转时间检测
+	static short reverse_flag;//倒转
+	static short MicroPosition;
 	if(ABS(BodanMotorCurrent) > 700 && ABS(Trigger.Receive.RealSpeed) == 0)
 	{
 		blocking_prevent_flag++;

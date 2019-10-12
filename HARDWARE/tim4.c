@@ -22,10 +22,9 @@ void TIM4_Config()
 
 extern RC_Ctl_t RC_Ctl;
 extern uint32_t SRC_Buffer[];
-uint16_t accelerator;
+uint16_t accelerator;//摩擦轮发送电流值
 uint8_t BIT[16];
 int _i;
-extern short Shoot_Flag;
 void TIM4_IRQHandler(void)
 {
 	if ( TIM_GetITStatus(TIM4 , TIM_IT_Update) != RESET ) 

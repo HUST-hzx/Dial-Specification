@@ -7,15 +7,14 @@
 **********************************************************************************************************/
 #include "main.h"
 
-volatile unsigned char sbus_rx_buffer[18];
-unsigned char JudgeReceiveBuffer[JudgeBufBiggestSize];
-unsigned char JudgeSend[22];
-tGameInfo JudgeReceive;
-short BulletFre,BulletSpeed;
-RC_Ctl_t RC_Ctl; 
+volatile unsigned char sbus_rx_buffer[18];//遥控器接收结构体
+unsigned char JudgeReceiveBuffer[JudgeBufBiggestSize];//裁判系统接收结构体
+unsigned char JudgeSend[22];//裁判系统发送结构体
+tGameInfo JudgeReceive;//裁判系统解码结构体
+RC_Ctl_t RC_Ctl; //遥控器解码结构体
 
 
-float jilu[400];
+
 /**********************************************************************************************************
 *函 数 名: USART_Config
 *功能说明: USART初始化
